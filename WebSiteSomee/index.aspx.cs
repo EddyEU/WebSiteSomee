@@ -11,4 +11,9 @@ public partial class index : System.Web.UI.Page
     {
 
     }
+
+    protected void Button1_Click(object sender, EventArgs e)
+    {
+        Button1.Text = "Hello Word";
+    }
 }
