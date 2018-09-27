@@ -11,6 +11,10 @@
     <form id="form1" runat="server">
         <div>
 
+            <h1>
+                Hola Mundo
+            </h1>
+
             <asp:GridView ID="GridView1" runat="server" CellPadding="4" ForeColor="#333333" GridLines="None" AutoGenerateColumns="False" DataKeyNames="idPersona" DataSourceID="SqlDataSource1">
                 <AlternatingRowStyle BackColor="White"></AlternatingRowStyle>
 
