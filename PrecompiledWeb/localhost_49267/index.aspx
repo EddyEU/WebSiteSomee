@@ -1,4 +1,4 @@
-﻿<%@ page language="C#" autoeventwireup="true" inherits="index, App_Web_0jwlxmgt" %>
+﻿<%@ page language="C#" autoeventwireup="true" inherits="index, App_Web_ncf41wwk" %>
 
 <!DOCTYPE html>
 
@@ -79,7 +79,7 @@
                     <asp:Parameter Name="original_estado" Type="Int32"></asp:Parameter>
                 </UpdateParameters>
             </asp:SqlDataSource>
-            <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Button" />
+            <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="ok" />
         </div>
     </form>
 </body>
