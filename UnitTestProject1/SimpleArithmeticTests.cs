@@ -38,6 +38,7 @@ namespace UnitTestProject1
         {
             var simpleArithmetic = new SimpleArithmetic();
 
+            Console.Out.Flush();
             Assert.IsTrue(simpleArithmetic.Division(8, 2) == 4);
         }
 
@@ -45,6 +46,7 @@ namespace UnitTestProject1
         [ExpectedException(typeof(DivideByZeroException))]
         public void TestDivisionByZero()
         {
+            Console.Out.WriteLine("Holla");
             var simpleArithmetic = new SimpleArithmetic();
 
             simpleArithmetic.Division(2, 0);

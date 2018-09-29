@@ -14,6 +14,7 @@ namespace UnitTestProject1
 
         public decimal Subtraction(int x, int y)
         {
+            Console.Out.Write("Holi hola");
             return x - y;
         }
 
